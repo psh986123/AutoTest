@@ -1,0 +1,26 @@
+[
+  {
+    "description": "带header信息的post请求",
+    "request": {
+      "uri": "/post/with/cookies",
+      "method": "post",
+      "headers": {
+        "Content-Type":"application/json"
+      },
+      "json": {
+        "name": "wanlaosi",
+        "sex": "woman"
+      }
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type":"application/json;charset=gbk"
+      },
+      "json":{
+        "wanglaosi":"success",
+        "status": "1"
+      }
+    }
+  }
+]
